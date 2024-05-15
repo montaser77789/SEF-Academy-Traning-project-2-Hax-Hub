@@ -6,6 +6,7 @@ import { currentUser } from "./Redux/Slice/userSlice.jsx";
 import Spinner from "./components/Spinner/Spinner.jsx";
 import ChatPage from "./Pages/ChatPage.jsx";
 
+
 const Footer = lazy(() => import("./components/Footer/Footer"));
 const Header = lazy(() => import("./components/Header/Header"));
 const DetailsBlogs = lazy(() => import("./Pages/Blogs/DetailsBlogs"));
